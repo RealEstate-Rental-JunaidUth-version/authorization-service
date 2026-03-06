@@ -1,7 +1,5 @@
-@Library('jenkins-shared-library') _
-
-standardBackendPipeline(
-    appName: 'authorization-service',
-    registry: 'yassinekamouss',
-     sonarProjectKey: 'auth-serverice'
+@Library('my-shared-library') _
+springBootPipeline(
+    appName: 'authorization-service', 
+    dockerUser: 'junaiduthman'
 )
